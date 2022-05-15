@@ -5,7 +5,7 @@
 */
 
 var gulp 			= require("gulp"),
-	sass 			= require("gulp-sass")(require('sass')),
+	sass 			= require("gulp-sass"),
 	browserSync 	= require("browser-sync"),
 	concat 			= require("gulp-concat"),
 	autoprefixer 	= require("gulp-autoprefixer"),
